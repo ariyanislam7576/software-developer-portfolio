@@ -10,10 +10,10 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="/home">Home</NavLink>
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="/about">About</NavLink>
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="/projects">Projects</NavLink>
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="/contact">Contact</NavLink>
+                            <NavLink className='mx-3 text-dark text-decoration-none' to="#home">Home</NavLink>
+                            <NavLink className='mx-3 text-dark text-decoration-none' to="#about">About</NavLink>
+                            <NavLink className='mx-3 text-dark text-decoration-none' to="#projects">Projects</NavLink>
+                            <NavLink className='mx-3 text-dark text-decoration-none' to="#contact">Contact</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
