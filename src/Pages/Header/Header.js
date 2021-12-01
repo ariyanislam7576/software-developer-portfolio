@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -10,10 +10,10 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="#home">Home</NavLink>
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="#about">About</NavLink>
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="#projects">Projects</NavLink>
-                            <NavLink className='mx-3 text-dark text-decoration-none' to="#contact">Contact</NavLink>
+                            <HashLink className='mx-3 text-dark text-decoration-none' to="/#home">Home</HashLink>
+                            <HashLink className='mx-3 text-dark text-decoration-none' to="/#about">About</HashLink>
+                            <HashLink className='mx-3 text-dark text-decoration-none' to="/#projects">Projects</HashLink>
+                            <HashLink className='mx-3 text-dark text-decoration-none' to="/#contact">Contact</HashLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

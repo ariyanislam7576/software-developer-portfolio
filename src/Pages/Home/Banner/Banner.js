@@ -6,13 +6,15 @@ import resume from '../../../Resume/Engineer resume.pdf'
 const Banner = () => {
 
     const portfolioBanner = {
-        background: `url(${myimage})`,
+        background: `url(${"https://image.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg"})`,
         backgroundColor: "rgba(53, 73, 117 , 0.5)",
-        backgroundBlendMode: "darken , luminosity"
+        backgroundBlendMode: "darken , luminosity",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover"
 
     }
     return (
-        <Container style={portfolioBanner}>
+        <Container id='home' style={portfolioBanner}>
           <Row>
               <div className='col-md-6 col-lg-6 col-sm-12 col-12 text-white'>
                   <h1 className='fw-bold fs-1 my-5'>HEY <br/> 
