@@ -27,7 +27,7 @@ const SingleProject = () => {
                     site.map(s => 
                     <Col>
                         <Card key={s.id}>
-                            <Card.Img variant="top" src={s.img} />
+                            <Card.Img className='w-100' variant="top" src={s.img} />
                             <Card.Body>
                                 <Card.Title>{s.name}</Card.Title>
                                 <Card.Text>
