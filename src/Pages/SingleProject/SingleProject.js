@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Carousel, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
 const SingleProject = () => {
@@ -24,18 +24,53 @@ const SingleProject = () => {
         <Container>
             <Row xs={1} md={2} className="g-4">
                 {
-                    site.map(s => 
-                    <Col>
-                        <Card key={s.id}>
-                            <Card.Img className='w-100' variant="top" src={s.img} />
-                            <Card.Body>
-                                <Card.Title>{s.name}</Card.Title>
-                                <Card.Text>
-                                    {s.des}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>)
+                    site.map(s =>
+                        <>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={s.scr1}
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={s.scr2}
+                                        alt="Second slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={s.scr3}
+                                        alt="Third slide"
+                                    />
+
+
+                                </Carousel.Item>
+                            </Carousel>
+
+                            <Col>
+                                <Card key={s.id} className='border-0'>
+                                    {/* //         <Card.Img className='w-100' variant="top" src={s.img} /> */}
+                                    <Card.Body className='text-start'>
+                                        <Card.Title>{s.name}</Card.Title>
+                                        <ul>
+                                            <li>{s.bp1}</li>
+                                            <li>{s.bp2}</li>
+                                            <li>{s.bp3}</li>
+                                        </ul>
+                                        <Card.Text>
+                                            {s.des}
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </>
+                    )
                 }
             </Row>
         </Container>

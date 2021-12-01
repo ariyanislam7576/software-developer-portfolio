@@ -3,7 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Project = ({p}) => {
-    const { id ,name, des, img,} = p
+    const { id ,name, des, img} = p
     return (
         <Col>
         <Card>
