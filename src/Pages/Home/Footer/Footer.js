@@ -24,10 +24,19 @@ const Footer = () => {
                     <h6 className='mb-3'>South bansbaria , Sitakund , Chattogram</h6>
                     <p>nahidul.arman11@gmail.com</p>
                     <p>+880-01825-2375-76</p>
-                    <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/733/733547.png'/>
-                    <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/174/174855.png'/>
-                    <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1638285481~hmac=80eaccbe069edf5e5420f1f90ff16b58'/>
-                    <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons.flaticon.com/png/512/3256/premium/3256013.png?token=exp=1638285554~hmac=e4ce03143e28ae44eca4b8da3c4b16ec'/>
+                    <a href="https://web.facebook.com/nahidbinmofiz.bg" target='_blank' >
+                        <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/733/733547.png'/>
+                        </a>
+                    <a href="https://www.instagram.com/nahiyanariyan/"
+                    target='_blank' >
+                        <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/174/174855.png'/>
+                    </a>
+                    <a href="https://github.com/ariyanislam7576"target='_blank' >
+                    <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/733/733609.png'/>
+                    </a>
+                    <a href="https://twitter.com/NahidulArman" target='_blank'>
+                    <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/145/145812.png'/>
+                    </a>
                     <img style={{width: '30px', marginRight: '10px'}} src='https://cdn-icons-png.flaticon.com/512/174/174883.png'/>
                 </div>
                 <div className='col-md-6 my-3'>

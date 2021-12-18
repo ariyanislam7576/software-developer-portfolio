@@ -24,7 +24,7 @@ const Banner = () => {
                   <div>
                       <a href={resume} target='_blank'>
                           <button className='btn-primary my-3'>
-                          Download resume
+                          Watch Resume
                           </button>
                              </a>
                   </div>

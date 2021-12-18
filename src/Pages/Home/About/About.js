@@ -5,7 +5,7 @@ import image from '../../../image/arman.jpg'
 const About = () => {
     return (
         <Container id='about'>
-            <h1 className='my-5'>About Us</h1>
+            <h1 className='my-5'>About Me</h1>
             <Row>
                 <div className='col-md-6'>
                     <img className='w-100' src="https://image.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" />
